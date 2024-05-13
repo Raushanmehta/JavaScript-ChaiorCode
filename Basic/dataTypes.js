@@ -8,6 +8,8 @@ let name = "raushan"
 let age = 20
 let isLoggedIn = false
 
+// primitive datatype
+
 // number  = 2 to power 32
 // bigint
 // string = ""
@@ -16,7 +18,27 @@ let isLoggedIn = false
 // undefine 
 // symbole =unique
 
-// object  
+
+//Reference  (Non peimitive)
+
+// Array, Object ,Function  
+
+const car = ["BMW" ,"volvo","benz","audi"];
+// console.log(typeof car)
+
+const manObj = {
+     name: "Raushan",
+     age: "10"
+}
+// console.log( typeof manObj);
+
+const myfunction = function(params) {
+console.log(typeof myfunction)
+
+    
+}
+
  
-console.log(typeof null) // object
-console.log(typeof undefined) // undefined 
+// console.log(typeof null) // object
+// console.log(typeof undefined) // undefined 
+
